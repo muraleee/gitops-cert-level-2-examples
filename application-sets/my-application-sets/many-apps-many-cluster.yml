@@ -14,7 +14,8 @@ spec:
               directories:
                 - path: applicationset/example-apps/*
           # cluster generator, 'child' #2
-          - clusters: {}
+          - clusters: 
+              selector: {}
 
   template:
     metadata:
