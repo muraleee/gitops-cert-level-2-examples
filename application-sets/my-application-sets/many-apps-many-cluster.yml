@@ -26,5 +26,5 @@ spec:
         targetRevision: HEAD
         path: '{{path}}'
       destination:
-        server: '{{server}}'
+        server: '{{clusters.server}}'
         namespace: '{{path.basename}}'
